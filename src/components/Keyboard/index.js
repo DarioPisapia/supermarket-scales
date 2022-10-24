@@ -11,15 +11,20 @@ export default function Keyboard() {
         if(number==="clear" ){
             setCode("")
         }    
-        else if(number==="del")
+        else if(number==="del"){
             setCode(Math.floor(code/10))
-        else if(code+e.target.value>999 ){
+            if (code<10) 
+                setCode("")   
+            else if(code===0) 
+                setCode("")
+        }    
+        else if(code.length === 3 ){
             
         }
         else{
             setCode(code+e.target.value)
         }
-    
+        
     }
 
     return (

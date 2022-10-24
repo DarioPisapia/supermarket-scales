@@ -1,35 +1,36 @@
 @import "../../styles.css";
 
 
-.footer {
+.productName{
     background: none;
     position: absolute;
-    display: flex;
-    bottom: 3%;
-    left: 7%;
-    height: 10%;
-    width: 86%;
-    justify-content: space-between;
-}
-button {
-    height: 80%;
-    width: 20%;
-    background: azure;
+    height: auto;
+    width: 100%;
     color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 24px;
+    font-size: 67px;
     font-weight: bolder;
-    box-shadow: 0px 0px 3px 0px grey;
-    border: none;
-}
-.error{
-    position: absolute;
-    width: 40%;
-    left: 30%;
+    top: 25%;
+    margin: 0 auto;
     text-align: center;
+}
+.price{
     background: none;
+    position: absolute;
     color: brown;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 16px;
+    font-size: 47px;
     font-weight: bolder;
+    margin: 0 auto;
+    top: 40%;
+    text-align: center;
+    margin-top: 7%;
+}
+
+.stampa {
+    position: absolute;
+    height: 10%;
+    width: 40%;
+    bottom: 15%;
+    left: 30%;
 }

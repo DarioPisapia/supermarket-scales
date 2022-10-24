@@ -1,0 +1,77 @@
+[
+    {
+        "product": "Arance",
+        "code": "124",
+        "price": 2.98
+    },
+    {
+        "product": "Banane",
+        "code": "101",
+        "price": 1.29
+    },
+    {
+        "product": "Broccoli",
+        "code": "72",
+        "price": 2.19
+    },
+    {
+        "product": "Carciofi",
+        "code": "677",
+        "price": 0.98
+    },
+    {
+        "product": "Cavolfiori",
+        "code": "345",
+        "price": 1.79
+    },
+    {
+        "product": "Insalata",
+        "code": "240",
+        "price": 1.98
+    },
+    {
+        "product": "Kiwi",
+        "code": "911",
+        "price": 2.19
+    },
+    {
+        "product": "Melanzane",
+        "code": "679",
+        "price": 2.98
+    },
+    {
+        "product": "Mele",
+        "code": "16",
+        "price": 2.39
+    },
+    {
+        "product": "Patate",
+        "code": "777",
+        "price": 1.19
+    },
+    {
+        "product": "Peperoni",
+        "code": "173",
+        "price": 2.98
+    },
+    {
+        "product": "Pere",
+        "code": "144",
+        "price": 2.69
+    },
+    {
+        "product": "Pomodori",
+        "code": "18",
+        "price": 1.98
+    },
+    {
+        "product": "Radicchio",
+        "code": "213",
+        "price": 1.98
+    },
+    {
+        "product": "Zucchine",
+        "code": "272",
+        "price": 2.48
+    }
+]
