@@ -3,7 +3,7 @@ import { WeightContext } from "../../App"
 import { useState, useContext } from "react"
 
 export default function DisplayWeight (){
-    const [weight, setWeight] = useContext(WeightContext)
+    const [weight] = useContext(WeightContext)
     return (
         <>
             <div className="units">kg</div>

@@ -4,15 +4,14 @@ import { WeightContext, CodeContext } from "../../App"
 const productList = require("../../products.json")
 
 export default function ResultPage(){
-    const [weight, setWeight] = useContext(WeightContext)
-    const [code, setCode] = useContext(CodeContext)
+    const [weight] = useContext(WeightContext)
+    const [code] = useContext(CodeContext)
     
     let product = ""
     
     productList.map(p => {
         if(code === p["code"]){
-            product = p
-            
+            product = p        
         }
     })
     
@@ -20,7 +19,6 @@ export default function ResultPage(){
         alert("fatto, funziona")
     }
 
-    console.log(product)
     return(
         <>
             <h1 className="productName">{product["product"]}</h1>

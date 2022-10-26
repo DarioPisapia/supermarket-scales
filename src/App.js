@@ -9,16 +9,16 @@ export const CodeContext = createContext()
 
 function App() {
 
-  const [weight, setWeight] = useState("")
-  const [code, setCode] = useState("")
+    const [weight, setWeight] = useState("")
+    const [code, setCode] = useState("")
 
-  return (
-    <WeightContext.Provider value={[weight, setWeight]}>
-    <CodeContext.Provider value={[code, setCode]}>
-      <Monitor />
-    </CodeContext.Provider>
-    </WeightContext.Provider>
-  );
+      return (
+          <WeightContext.Provider value={[weight, setWeight]}>
+          <CodeContext.Provider value={[code, setCode]}>
+            <Monitor />
+          </CodeContext.Provider>
+          </WeightContext.Provider>
+      );
 }
 
 export default App;

@@ -6,8 +6,7 @@ export default function Keyboard() {
     const [code, setCode] = useContext(CodeContext)
     const key = [1, 2, 3, 4, 5, 6, 7, 8, 9, "clear", 0, "del"]
 
-    const handleNumber = (e, number) => {
-        
+    const handleNumber = (e, number) => { 
         if(number==="clear" ){
             setCode("")
         }    
@@ -18,8 +17,7 @@ export default function Keyboard() {
             else if(code===0) 
                 setCode("")
         }    
-        else if(code.length === 3 ){
-            
+        else if(code.length === 3 ){    
         }
         else{
             setCode(code+e.target.value)
